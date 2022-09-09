@@ -56,5 +56,5 @@ user = User('Иван', 'Иванов', 25, "ivanov@mail.ru")
 
 user_registration = Registration(user, '12345')
 
-user_registration.say()
-user_registration.register()
+user_registration.say()  # Hello, my name is Иван Иванов.
+user_registration.register()  # Пользователь Иван успешно зарегистрирован!
